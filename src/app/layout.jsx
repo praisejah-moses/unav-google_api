@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         {children}
+        <script type="module" src="app.js"></script>
       </body>
     </html>
   )
